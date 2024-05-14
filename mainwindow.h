@@ -48,8 +48,6 @@ private:
 private:
   QString formatTime(int seconds);
 
-
-
   XORShiftPlusPlus* rng;
 
 public:
@@ -57,6 +55,7 @@ public:
   int money = 390;
   int collectedEggs = 0;
   QTimer* timerForSellingEggs;
+  QElapsedTimer* elapsedTimer;
   QVector<Egg* > eggVec;
 
 public:

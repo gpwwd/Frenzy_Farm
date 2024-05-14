@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "tt",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "farm::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-farm-Debug-09e356fbb4269d194ca0.json",
+					"name" : "farm",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "farm_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-farm_autogen-Debug-525b3eea49e79eb2ecbe.json",
+					"name" : "farm_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "farm_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-farm_autogen_timestamp_deps-Debug-c61129c3f9489ec85934.json",
+					"name" : "farm_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/__maks__/kursovaya/Frenzy_Farm_Git/build",
+		"source" : "/home/__maks__/kursovaya/Frenzy_Farm_Git"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

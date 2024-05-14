@@ -10,7 +10,7 @@
     <x>0</x>
     <y>0</y>
     <width>191</width>
-    <height>344</height>
+    <height>365</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -22,14 +22,33 @@
      <x>0</x>
      <y>10</y>
      <width>185</width>
-     <height>332</height>
+     <height>351</height>
     </rect>
    </property>
    <layout class="QVBoxLayout" name="verticalLayout">
     <item>
      <widget class="QPushButton" name="loadBear">
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
       <property name="text">
        <string>загрузить медведя</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="sellBear">
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>продать медведя</string>
       </property>
      </widget>
     </item>
@@ -71,20 +90,7 @@
        </font>
       </property>
       <property name="text">
-       <string>продать</string>
-      </property>
-     </widget>
-    </item>
-    <item>
-     <widget class="QPushButton" name="sellBear">
-      <property name="font">
-       <font>
-        <weight>75</weight>
-        <bold>true</bold>
-       </font>
-      </property>
-      <property name="text">
-       <string>продать медведя</string>
+       <string>продать яйца</string>
       </property>
      </widget>
     </item>
@@ -120,7 +126,7 @@
      <widget class="QLabel" name="eggsAmountForSaleLabel">
       <property name="font">
        <font>
-        <pointsize>12</pointsize>
+        <pointsize>10</pointsize>
         <weight>75</weight>
         <bold>true</bold>
        </font>
@@ -145,6 +151,12 @@
     </item>
     <item>
      <widget class="QLabel" name="bearsForSaleLabel">
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
       <property name="text">
        <string/>
       </property>

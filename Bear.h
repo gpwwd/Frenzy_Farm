@@ -27,7 +27,7 @@ private:
 
     QTimer* timerToChangeDirection;
     QTimer* timerToCheckCollidingHens;
-    int health = 5;
+    int health = 4;
     int damage = -1;
     double coefSlowdown = 1;
 

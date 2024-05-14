@@ -1,0 +1,86 @@
+[
+{
+  "directory": "/home/__maks__/kursovaya/Frenzy_Farm_Git/build",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/__maks__/kursovaya/Frenzy_Farm_Git/build/farm_autogen/include -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtWidgets -isystem /usr/include/qt6/QtGui -g -std=gnu++17 -fno-direct-access-external-data -o CMakeFiles/farm.dir/farm_autogen/mocs_compilation.cpp.o -c /home/__maks__/kursovaya/Frenzy_Farm_Git/build/farm_autogen/mocs_compilation.cpp",
+  "file": "/home/__maks__/kursovaya/Frenzy_Farm_Git/build/farm_autogen/mocs_compilation.cpp",
+  "output": "CMakeFiles/farm.dir/farm_autogen/mocs_compilation.cpp.o"
+},
+{
+  "directory": "/home/__maks__/kursovaya/Frenzy_Farm_Git/build",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/__maks__/kursovaya/Frenzy_Farm_Git/build/farm_autogen/include -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtWidgets -isystem /usr/include/qt6/QtGui -g -std=gnu++17 -fno-direct-access-external-data -o CMakeFiles/farm.dir/main.cpp.o -c /home/__maks__/kursovaya/Frenzy_Farm_Git/main.cpp",
+  "file": "/home/__maks__/kursovaya/Frenzy_Farm_Git/main.cpp",
+  "output": "CMakeFiles/farm.dir/main.cpp.o"
+},
+{
+  "directory": "/home/__maks__/kursovaya/Frenzy_Farm_Git/build",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/__maks__/kursovaya/Frenzy_Farm_Git/build/farm_autogen/include -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtWidgets -isystem /usr/include/qt6/QtGui -g -std=gnu++17 -fno-direct-access-external-data -o CMakeFiles/farm.dir/mainwindow.cpp.o -c /home/__maks__/kursovaya/Frenzy_Farm_Git/mainwindow.cpp",
+  "file": "/home/__maks__/kursovaya/Frenzy_Farm_Git/mainwindow.cpp",
+  "output": "CMakeFiles/farm.dir/mainwindow.cpp.o"
+},
+{
+  "directory": "/home/__maks__/kursovaya/Frenzy_Farm_Git/build",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/__maks__/kursovaya/Frenzy_Farm_Git/build/farm_autogen/include -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtWidgets -isystem /usr/include/qt6/QtGui -g -std=gnu++17 -fno-direct-access-external-data -o CMakeFiles/farm.dir/Animal.cpp.o -c /home/__maks__/kursovaya/Frenzy_Farm_Git/Animal.cpp",
+  "file": "/home/__maks__/kursovaya/Frenzy_Farm_Git/Animal.cpp",
+  "output": "CMakeFiles/farm.dir/Animal.cpp.o"
+},
+{
+  "directory": "/home/__maks__/kursovaya/Frenzy_Farm_Git/build",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/__maks__/kursovaya/Frenzy_Farm_Git/build/farm_autogen/include -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtWidgets -isystem /usr/include/qt6/QtGui -g -std=gnu++17 -fno-direct-access-external-data -o CMakeFiles/farm.dir/Grass.cpp.o -c /home/__maks__/kursovaya/Frenzy_Farm_Git/Grass.cpp",
+  "file": "/home/__maks__/kursovaya/Frenzy_Farm_Git/Grass.cpp",
+  "output": "CMakeFiles/farm.dir/Grass.cpp.o"
+},
+{
+  "directory": "/home/__maks__/kursovaya/Frenzy_Farm_Git/build",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/__maks__/kursovaya/Frenzy_Farm_Git/build/farm_autogen/include -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtWidgets -isystem /usr/include/qt6/QtGui -g -std=gnu++17 -fno-direct-access-external-data -o CMakeFiles/farm.dir/CustomGraphicsScene.cpp.o -c /home/__maks__/kursovaya/Frenzy_Farm_Git/CustomGraphicsScene.cpp",
+  "file": "/home/__maks__/kursovaya/Frenzy_Farm_Git/CustomGraphicsScene.cpp",
+  "output": "CMakeFiles/farm.dir/CustomGraphicsScene.cpp.o"
+},
+{
+  "directory": "/home/__maks__/kursovaya/Frenzy_Farm_Git/build",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/__maks__/kursovaya/Frenzy_Farm_Git/build/farm_autogen/include -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtWidgets -isystem /usr/include/qt6/QtGui -g -std=gnu++17 -fno-direct-access-external-data -o CMakeFiles/farm.dir/Egg.cpp.o -c /home/__maks__/kursovaya/Frenzy_Farm_Git/Egg.cpp",
+  "file": "/home/__maks__/kursovaya/Frenzy_Farm_Git/Egg.cpp",
+  "output": "CMakeFiles/farm.dir/Egg.cpp.o"
+},
+{
+  "directory": "/home/__maks__/kursovaya/Frenzy_Farm_Git/build",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/__maks__/kursovaya/Frenzy_Farm_Git/build/farm_autogen/include -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtWidgets -isystem /usr/include/qt6/QtGui -g -std=gnu++17 -fno-direct-access-external-data -o CMakeFiles/farm.dir/dialog.cpp.o -c /home/__maks__/kursovaya/Frenzy_Farm_Git/dialog.cpp",
+  "file": "/home/__maks__/kursovaya/Frenzy_Farm_Git/dialog.cpp",
+  "output": "CMakeFiles/farm.dir/dialog.cpp.o"
+},
+{
+  "directory": "/home/__maks__/kursovaya/Frenzy_Farm_Git/build",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/__maks__/kursovaya/Frenzy_Farm_Git/build/farm_autogen/include -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtWidgets -isystem /usr/include/qt6/QtGui -g -std=gnu++17 -fno-direct-access-external-data -o CMakeFiles/farm.dir/widget.cpp.o -c /home/__maks__/kursovaya/Frenzy_Farm_Git/widget.cpp",
+  "file": "/home/__maks__/kursovaya/Frenzy_Farm_Git/widget.cpp",
+  "output": "CMakeFiles/farm.dir/widget.cpp.o"
+},
+{
+  "directory": "/home/__maks__/kursovaya/Frenzy_Farm_Git/build",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/__maks__/kursovaya/Frenzy_Farm_Git/build/farm_autogen/include -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtWidgets -isystem /usr/include/qt6/QtGui -g -std=gnu++17 -fno-direct-access-external-data -o CMakeFiles/farm.dir/Bear.cpp.o -c /home/__maks__/kursovaya/Frenzy_Farm_Git/Bear.cpp",
+  "file": "/home/__maks__/kursovaya/Frenzy_Farm_Git/Bear.cpp",
+  "output": "CMakeFiles/farm.dir/Bear.cpp.o"
+},
+{
+  "directory": "/home/__maks__/kursovaya/Frenzy_Farm_Git/build",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/__maks__/kursovaya/Frenzy_Farm_Git/build/farm_autogen/include -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtWidgets -isystem /usr/include/qt6/QtGui -g -std=gnu++17 -fno-direct-access-external-data -o CMakeFiles/farm.dir/factory.cpp.o -c /home/__maks__/kursovaya/Frenzy_Farm_Git/factory.cpp",
+  "file": "/home/__maks__/kursovaya/Frenzy_Farm_Git/factory.cpp",
+  "output": "CMakeFiles/farm.dir/factory.cpp.o"
+},
+{
+  "directory": "/home/__maks__/kursovaya/Frenzy_Farm_Git/build",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/__maks__/kursovaya/Frenzy_Farm_Git/build/farm_autogen/include -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtWidgets -isystem /usr/include/qt6/QtGui -g -std=gnu++17 -fno-direct-access-external-data -o CMakeFiles/farm.dir/product.cpp.o -c /home/__maks__/kursovaya/Frenzy_Farm_Git/product.cpp",
+  "file": "/home/__maks__/kursovaya/Frenzy_Farm_Git/product.cpp",
+  "output": "CMakeFiles/farm.dir/product.cpp.o"
+},
+{
+  "directory": "/home/__maks__/kursovaya/Frenzy_Farm_Git/build",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/__maks__/kursovaya/Frenzy_Farm_Git/build/farm_autogen/include -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtWidgets -isystem /usr/include/qt6/QtGui -g -std=gnu++17 -fno-direct-access-external-data -o CMakeFiles/farm.dir/winDialog.cpp.o -c /home/__maks__/kursovaya/Frenzy_Farm_Git/winDialog.cpp",
+  "file": "/home/__maks__/kursovaya/Frenzy_Farm_Git/winDialog.cpp",
+  "output": "CMakeFiles/farm.dir/winDialog.cpp.o"
+},
+{
+  "directory": "/home/__maks__/kursovaya/Frenzy_Farm_Git/build",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/__maks__/kursovaya/Frenzy_Farm_Git/build/farm_autogen/include -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtWidgets -isystem /usr/include/qt6/QtGui -g -std=gnu++17 -fno-direct-access-external-data -o CMakeFiles/farm.dir/xorshiftplus.cpp.o -c /home/__maks__/kursovaya/Frenzy_Farm_Git/xorshiftplus.cpp",
+  "file": "/home/__maks__/kursovaya/Frenzy_Farm_Git/xorshiftplus.cpp",
+  "output": "CMakeFiles/farm.dir/xorshiftplus.cpp.o"
+}
+]

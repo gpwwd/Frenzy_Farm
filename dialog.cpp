@@ -9,7 +9,8 @@ Dialog::Dialog(QWidget *parent)
     ui->setupUi(this);
 
     ui->eggsAmountForSaleLabel->setText(QString::number(eggsForSale));
-    setFixedSize(191, 344); 
+    ui->bearsForSaleLabel->setText(QString::number(bearsForSale));
+    setFixedSize(191, 365); 
     setDialogBackground();
     setWindowFlags(windowFlags() | Qt::FramelessWindowHint);
     QObject::connect(ui->closeButton, &QPushButton::clicked, this, &QDialog::reject);
@@ -19,7 +20,6 @@ Dialog::~Dialog()
 {
     delete ui;
 }
-
 
 void Dialog::setButtonStyle(QPushButton* button){
     QString buttonStyle = "QPushButton {"
@@ -45,6 +45,7 @@ void Dialog::setDialogBackground()
     setButtonStyle(ui->sellEggsButton);
     setButtonStyle(ui->closeButton);
     setButtonStyle(ui->loadBear);
+    setButtonStyle(ui->sellBear);
     QPalette palette;
     palette.setBrush(QPalette::Window, background);
     setPalette(palette);

@@ -261,7 +261,7 @@
    <widget class="QLabel" name="pastTimeLabel">
     <property name="geometry">
      <rect>
-      <x>1020</x>
+      <x>1010</x>
       <y>780</y>
       <width>91</width>
       <height>31</height>
@@ -269,7 +269,7 @@
     </property>
     <property name="font">
      <font>
-      <pointsize>14</pointsize>
+      <pointsize>18</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -305,7 +305,7 @@
     </property>
     <property name="font">
      <font>
-      <pointsize>14</pointsize>
+      <pointsize>18</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>

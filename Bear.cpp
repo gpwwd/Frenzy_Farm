@@ -76,7 +76,7 @@ void Bear::changeDirection(){
     qreal distance = this->findDist(this->pos().x(), this->pos().y(), distX, distY);
 
     QPropertyAnimation* animation = new QPropertyAnimation(this, "pos");
-    animation->setDuration(distance * 20 * coefSlowdown); 
+    animation->setDuration(distance * 23 * coefSlowdown); 
     animation->setStartValue(QPoint(this->pos().x(), this->pos().y()));
     animation->setEndValue(QPoint(distX, distY));
     animation->start();    
@@ -108,7 +108,7 @@ void Bear::setImage(int frameNumber){
     if (image.isNull()) {
         qDebug() << "no picture found";
     }
-    m_image = image.scaled(100, 100);
+    m_image = image.scaled(90, 90);
     update();
 }
 
@@ -124,7 +124,7 @@ void Bear::changeAnimationFrame(){
 
 QRectF Bear::boundingRect() const 
 {
-    return QRectF(0, 0, m_image.width() + 20, m_image.height() + 20);
+    return QRectF(0, 0, m_image.width() - 20, m_image.height() - 20);
 }
 
 void Bear::paint(QPainter* painter, const QStyleOptionGraphicsItem* option, QWidget* widget) 

@@ -9,10 +9,6 @@ Widget::Widget(QWidget *parent)
 {
     ui->setupUi(this);
 
-//   QString imageButtonPath = "../resources/button.png";
-//   QPixmap imageButton(imageButtonPath);
-//   ui->startGameButton->setIcon(QIcon(imageButton));
-//   ui->startGameButton_2->setIcon(QIcon(imageButton));
   ui->startGameButton->setStyleSheet("QPushButton { background-color: transparent; border: none; "
                          "background-image: url('../resources/button.png'); "
                          "color: white; font-weight: bold; font-size: 20px; font-family: 'Comic Sans MS'; }");
@@ -22,7 +18,7 @@ Widget::Widget(QWidget *parent)
                          "background-image: url('../resources/button.png'); "
                          "color: white; font-weight: bold; font-size: 20px; font-family: 'Comic Sans MS'; }");
   ui->startGameButton_2->setFixedSize(225, 53);
-  ui->startGameButton_2->setText("Авторы");
+  ui->startGameButton_2->setText("Как играть");
 }
 
 Widget::~Widget()

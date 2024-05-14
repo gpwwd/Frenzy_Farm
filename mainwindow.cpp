@@ -127,7 +127,7 @@ MainWindow::MainWindow(QWidget *parent): QMainWindow(parent),
 ////////////////
   connect(ui->addHen, &QPushButton::clicked, this, &MainWindow::on_addHen_clicked);
 
-  QElapsedTimer* elapsedTimer = new QElapsedTimer();
+  elapsedTimer = new QElapsedTimer();
   elapsedTimer->start();
 
   QTimer* updateTimer = new QTimer(); 
@@ -137,7 +137,7 @@ MainWindow::MainWindow(QWidget *parent): QMainWindow(parent),
     timeForCreatingBears[i] = rng->getRandomValue(30000, 120000);
   }
 
-  connect(updateTimer, &QTimer::timeout, this, [this, elapsedTimer]() {
+  connect(updateTimer, &QTimer::timeout, this, [this]() {
       int elapsedTime = elapsedTimer->elapsed() / 1000; 
       ui->pastTimeLabel->setText(formatTime(elapsedTime));
       for(auto i = 0; i < this->amountOfbears; i++){
@@ -158,7 +158,6 @@ MainWindow::MainWindow(QWidget *parent): QMainWindow(parent),
 
 void MainWindow::closeEvent(QCloseEvent *event) {
     closedSlot();
-
     QMainWindow::closeEvent(event);
 }
 
