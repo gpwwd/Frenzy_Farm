@@ -1,5 +1,0 @@
-/home/__maks__/kursovaya/Frenzy_Farm_Git/build/CMakeFiles/farm.dir
-/home/__maks__/kursovaya/Frenzy_Farm_Git/build/CMakeFiles/edit_cache.dir
-/home/__maks__/kursovaya/Frenzy_Farm_Git/build/CMakeFiles/rebuild_cache.dir
-/home/__maks__/kursovaya/Frenzy_Farm_Git/build/CMakeFiles/farm_autogen_timestamp_deps.dir
-/home/__maks__/kursovaya/Frenzy_Farm_Git/build/CMakeFiles/farm_autogen.dir

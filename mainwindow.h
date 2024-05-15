@@ -30,6 +30,8 @@ public:
   Widget* _parentPtr;
   WinDialog* winDialog = nullptr;
 private:
+  QTimer* updateTimer;
+
   CustomGraphicsScene* scene;
   int moneyToBuyWater = 19;
   int collectedProducts = 0;
@@ -80,6 +82,7 @@ private slots:
   void checkWinConditionSlot();
   void increaseAmountOfCollectedBears();
   void startSellingBears(QPushButton* sellBearsButton, int bearsForSale);
+  void getTimeForBears();
 public slots:
   void closedSlot();
 signals:

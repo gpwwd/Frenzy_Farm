@@ -29,6 +29,7 @@ Widget::~Widget()
 void Widget::on_startGameButton_clicked(){
     this->hide();
 
+    mainGameWindowPtr = nullptr;
     MainWindow* mainGameWindow;
     if(mainGameWindowPtr != nullptr){
         delete mainGameWindowPtr;

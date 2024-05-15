@@ -130,22 +130,14 @@ MainWindow::MainWindow(QWidget *parent): QMainWindow(parent),
   elapsedTimer = new QElapsedTimer();
   elapsedTimer->start();
 
-  QTimer* updateTimer = new QTimer(); 
+  updateTimer = new QTimer(); 
   updateTimer->start(1000);
 
   for(auto i = 0; i < amountOfbears; i++){
-    timeForCreatingBears[i] = rng->getRandomValue(30000, 120000);
+    timeForCreatingBears[i] = rng->getRandomValue(10000, 120000);
   }
 
-  connect(updateTimer, &QTimer::timeout, this, [this]() {
-      int elapsedTime = elapsedTimer->elapsed() / 1000; 
-      ui->pastTimeLabel->setText(formatTime(elapsedTime));
-      for(auto i = 0; i < this->amountOfbears; i++){
-        if(this->timeForCreatingBears[i] / 1000 == elapsedTimer->elapsed() / 1000){
-          addBear();
-        };
-      }
-  });
+  connect(updateTimer, &QTimer::timeout, this, &MainWindow::getTimeForBears);
 
   timerToCheckWinCondition = new QTimer();
   connect(timerToCheckWinCondition, &QTimer::timeout, this, &MainWindow::checkWinConditionSlot);
@@ -155,6 +147,15 @@ MainWindow::MainWindow(QWidget *parent): QMainWindow(parent),
   on_addHen_clicked();
 }
 
+void MainWindow::getTimeForBears(){
+    int elapsedTime = elapsedTimer->elapsed() / 1000; 
+    ui->pastTimeLabel->setText(formatTime(elapsedTime));
+    for(auto i = 0; i < this->amountOfbears; i++){
+      if(this->timeForCreatingBears[i] / 1000 == elapsedTimer->elapsed() / 1000){
+        addBear();
+      };
+    }
+}
 
 void MainWindow::closeEvent(QCloseEvent *event) {
     closedSlot();
