@@ -3,6 +3,7 @@
 
 #include <QWidget>
 #include <QMainWindow>
+#include "rulesDialog.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui {
@@ -26,5 +27,6 @@ public slots:
     void execute();
 private slots:
     void on_startGameButton_clicked();
+    void on_rulesDialogButton_clicked();
 };
 #endif // WIDGET_H

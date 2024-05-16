@@ -51,7 +51,7 @@
     <bool>false</bool>
    </property>
   </widget>
-  <widget class="QPushButton" name="startGameButton_2">
+  <widget class="QPushButton" name="rulesDialogButton">
    <property name="geometry">
     <rect>
      <x>680</x>

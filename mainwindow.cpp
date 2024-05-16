@@ -14,6 +14,7 @@ bool isMouseOnProduct = false;
 
 MainWindow::MainWindow(QWidget *parent): QMainWindow(parent),
                                          ui(new Ui::MainWindow) {
+
                                           
   _parentPtr = dynamic_cast<Widget* >(parent);
 

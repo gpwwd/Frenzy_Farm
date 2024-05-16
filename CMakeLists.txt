@@ -21,6 +21,7 @@ qt_add_executable(farm
   product.cpp product.h
   winDialog.cpp winDialog.h winDialog.ui
   xorshiftplus.cpp xorshiftplus.h
+  rulesDialog.cpp rulesDialog.h rulesDialog.ui
 )
 
 
